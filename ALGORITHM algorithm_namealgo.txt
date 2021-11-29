@@ -1,0 +1,42 @@
+ALGORITHM algorithm_name
+VAR
+       p : FLOAT :=0 ;
+BEGIN
+        END_FOR
+    FOR i FROM 0 TO 2 STEP 1  DO
+    FOR j FROM 0 TO 2 STEP 1  DO
+        IF (i == j) THEN
+            p := p + (v1 * v2) ;
+        END_IF
+    END_FOR
+    END_FOR
+        RETURN (p) ;
+END
+
+// algo : controle de saisie 
+ALGORITHM algorithm_name
+VAR
+    v1,v2 : ARRAY_OF type[3] ;) : FLOAT
+BEGIN
+      FOR i FROM  TO max STEP step  DO
+        write ("enter vect_1 :") ;
+        read (v1) ;
+        write ("enter vect_2 :") ;
+        read (v2) ;
+END
+
+
+    // procedural part 
+PROCEDURE Dot product (v1 , v2 : ARRAY_OF type [3]) : FLOAT
+VAR
+    p : FLOAT :=0 ;
+BEGIN
+    FOR i FROM 0 TO 2 STEP 1  DO
+    FOR j FROM 0 TO 2 STEP 1  DO
+        IF (i == j) THEN
+            p := p + (v1 * v2) ;
+        END_IF
+    END_FOR
+    END_FOR
+        RETURN (p) ;
+END
